@@ -1,0 +1,28 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form > input {
+    margin: 10px;
+    height: 30px;
+    border: 2px solid #555;
+}   
+
+.submit-btn {
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #556800;
+    color: #fff;
+    cursor: pointer;
+}
